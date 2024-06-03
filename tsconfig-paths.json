@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@config/*": ["config/*"],
+      "@redux/*": ["redux/*"],
+      "@graphql/*": ["graphql/*"],
+      "@handlers/*": ["handlers/*"],
+      "@providers/*": ["providers/*"],
+      "@hoc/*": ["hoc/*"],
+      "@consumers/*": ["consumers/*"],
+      "@utils/*": ["utils/*"],
+      "@components/*": ["views/components/*"],
+      "@layouts/*": ["views/layouts/*"],
+      "@pages/*": ["views/pages/*"]
+    }
+  }
+}
